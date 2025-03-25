@@ -8,6 +8,7 @@ public class Calculator {
         System.out.println("Enter the numbers: ");
         double n1 = sc.nextDouble();
         double n2 = sc.nextDouble();
+        System.out.println("Enter the operator (+,-,*,/):");
         char operation = sc.next().charAt(0);
         double op = 0;
         switch (operation) {
